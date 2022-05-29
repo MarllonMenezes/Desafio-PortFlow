@@ -62,7 +62,7 @@ main {
 }
 
 .firstSection {
-    background-image:url(./imagens/laranja\ azul\ recorte.png);
+    background-image: url('./imagens/laranja\ azul\ recorte.png');
     background-repeat: no-repeat;
     background-size: cover;
     height:600px;
