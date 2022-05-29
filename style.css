@@ -185,4 +185,122 @@ body{
      display:none;
  }
 
- 
+ @media(max-width:900px) {
+    header{
+        display:flex;
+        justify-content:flex-start;
+        align-items: center;
+        position: static;
+        margin-top: -30px;
+        margin-bottom: -30px;
+    }
+
+    header .menuHamb{
+        display: initial;
+        width:150px;
+        height: 40px;
+        background-color: black;
+        cursor: pointer;
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        
+    }
+
+    header .menuHamb img{
+        width:40px;
+        
+    }
+
+    header h1{
+        margin-left: 50px;
+    }
+
+    header .menu {
+        display: none;
+    }
+    header .menu ul {
+        display: none;
+    }
+
+    header .menu li{
+        display: none;
+    }
+
+    header .menu li:hover{
+        display: none;
+    }
+
+    .firstSection{
+        background-image: url('./imagens/laranja\ azul\ recorte@2x.png');
+        height:900px;
+        align-items: flex-end;
+        background-size: 900px 900px;
+        
+    
+        
+    }
+    
+    .firstSection h2{
+        margin-top: 350px;
+    }
+
+    .secondSection .firstBox,
+    .secondSection .secondBox,
+    .secondSection .thirdBox{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .secondSection .thirdBox img{
+        margin-bottom: 20px;
+     }
+
+     footer{
+        flex-wrap: wrap;
+     }
+
+     footer .mediasBox{
+        background-color: #7FDBD4;
+        width: 100%;
+        height: 50px;
+        margin-left: -5px;
+        justify-content: space-evenly;
+     }
+     
+     footer .mediasBox img{
+        margin-right: 5px;
+     }
+
+     footer .copy{
+        width: 50%;
+        flex-wrap: wrap;
+     }
+   
+     footer .back{
+        display: flex;
+        display:initial;
+        width: 50%;
+     }
+
+     footer .back button{
+        background-color: #333333;
+        color:#CCCCCC;
+        font-size: 20px;
+        width: 100px;
+        height: 30px;
+        margin-left: 100px;
+        cursor: pointer;
+     }
+}
+
+@media(max-width:400px) {
+    footer .mediasBox{
+        flex-wrap: wrap;
+    }
+    
+    footer .mediasBox img{
+        margin-left: 20px;
+        align-items:center;
+     }
+}
