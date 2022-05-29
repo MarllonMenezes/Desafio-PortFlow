@@ -45,7 +45,7 @@
     }
 
     .firstSection{
-        background-image: url('/imagens/laranja\ azul\ recorte@2x.png');
+        background-image: url('./imagens/laranja\ azul\ recorte@2x.png');
         height:900px;
         align-items: flex-end;
         background-size: 900px 900px;
